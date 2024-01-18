@@ -1,0 +1,23 @@
+{
+  "name": "learn-backend",
+  "version": "1.0.0",
+  "description": "a project to get understanding of backend working and fundamentals.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+  "keywords": [
+    "backend"
+  ],
+  "author": "SK1704",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
