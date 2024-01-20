@@ -26,7 +26,7 @@ const userSchema = new mongoose.Schema(
             trim: true,
         },
         avatar: {
-            typeof: String, // Cloudnary URL
+            type: String, // Cloudnary URL
             required: [true, 'Avatar is required'],
         },
         password: {
