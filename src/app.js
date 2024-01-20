@@ -18,7 +18,7 @@ import userRoute from './routes/user.routes.js'
 app.use('/api/v1/users', userRoute)
 
 // this makes the url like
-//  
+// http://localhost:8000/api/v1/users
 
 app.use(express.urlencoded({ extended: true, limit: '10kb' }))
 export { app };
